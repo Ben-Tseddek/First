@@ -443,7 +443,7 @@ function updatePlayer(dt) {
   }
   if (p.inDoor > 0) {
     p.inDoor -= dt;
-    if (p.inDoor <= 0) { const d = doorAt(p.x, p.f); if (d) d.open = 0.5; }
+    if (p.inDoor <= 0) { p.inDoor = 0; p.inv = Math.max(p.inv, 0.6); const d = doorAt(p.x, p.f); if (d) d.open = 0.5; }
     return;
   }
   const car = p.inCar ? p.inCar.car : null;
