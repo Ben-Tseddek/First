@@ -12,10 +12,12 @@ Abra `index.html` em qualquer navegador moderno. Na tela inicial escolha a dific
 |---|---|
 | Setas ou W A S D | Andar e cavar |
 | Espaço (X / Z) | Lançar a semente mágica |
+| C ou Shift | Golpe de pá (corte curto à frente) |
+| F ou V | Liberar a Fúria (quando a barra estiver cheia) |
 | P ou Esc | Menu de pausa (som, música, voltar) |
 | M | Liga/desliga o som |
 | Enter | Confirmar |
-| Controle (gamepad) | Direcional/analógico, botão A = semente, Start = pausa |
+| Controle (gamepad) | Direcional/analógico, A = semente, B = pá, X/Y = fúria, Start = pausa |
 
 ## Dificuldades
 
@@ -38,6 +40,15 @@ O recorde é guardado separadamente para cada dificuldade.
 - **Diamante**: aparece no ninho quando todos os inimigos saíram. Congela os inimigos; tocá-los nesse tempo os elimina (+300).
 - **Power-ups** caem de inimigos esmagados: Lanterna (luz maior e inimigos lentos), Sementes (recarga instantânea por 12 s), Relógio (congela 5 s).
 - **Fase bônus** a cada 3 níveis: 28 segundos de chuva de café, sem inimigos.
+
+## Duelo (inspiração nos jogos de luta de espada dos anos 90)
+
+- **Golpe de pá (C)**: corte curto à frente, com 0,75 s de recarga. Mata besouros, vespas e vagalumes; deixa tatus tontos; tira 1 de vida do chefe. Exige chegar perto: risco e recompensa.
+- **Barra de Fúria**: enche com grãos colhidos (+3), eliminações (+10), sustos de quase-toque (+8) e **meditação** (ficar parado mais de 1 s). Morrer corta a barra pela metade.
+- **Fúria (F)**: com a barra cheia, o jardineiro rodopia em câmera lenta, abre túneis nas quatro direções e atinge tudo num raio de 2,5 casas. Tira 2 de vida do chefe.
+- **Câmera dramática**: aproxima quando um inimigo chega perto, na Fúria, na derrota e na vitória.
+- **Chefe** a cada 4 níveis: o Rinoceronte da Toca, com barra de vida. Sementes e golpes tiram 1; jacas e Fúria tiram 2. Vale 5000.
+- Letreiros em pincelada ("CAVAR!", "FÚRIA!", "VITÓRIA!"), respingos de tinta de café nos golpes e pétalas de flor de café caindo.
 - Vida extra aos 10.000 pontos e a cada 20.000 depois.
 
 ## Ambiente
