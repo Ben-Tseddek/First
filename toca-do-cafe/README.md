@@ -14,6 +14,7 @@ Abra `index.html` em qualquer navegador moderno. Na tela inicial escolha a dific
 | Espaço (X / Z) | Lançar a semente mágica |
 | C ou Shift | Golpe de pá (corte curto à frente) |
 | F ou V | Liberar a Fúria (quando a barra estiver cheia) |
+| E | Dançar (enche a Fúria rápido, mas atrai os inimigos) |
 | P ou Esc | Menu de pausa (som, música, voltar) |
 | M | Liga/desliga o som |
 | Enter | Confirmar |
@@ -48,6 +49,22 @@ O recorde é guardado separadamente para cada dificuldade.
 - **Fúria (F)**: com a barra cheia, o jardineiro rodopia em câmera lenta, abre túneis nas quatro direções e atinge tudo num raio de 2,5 casas. Tira 2 de vida do chefe.
 - **Câmera dramática**: aproxima quando um inimigo chega perto, na Fúria, na derrota e na vitória.
 - **Chefe** a cada 4 níveis: o Rinoceronte da Toca, com barra de vida. Sementes e golpes tiram 1; jacas e Fúria tiram 2. Vale 5000.
+
+## Novidades da versão 4
+
+- **Golpe de pá mais amplo**: alcança 1,6 casa à frente e quase uma casa de cada lado.
+- **Dança (E)**: 2,4 s de forró; a Fúria enche depressa, mas todos os inimigos vêm direto até você. A música muda para a trilha de dança.
+- **Sete trilhas**: manhã, entardecer, noite, madrugada, fase bônus, chefe e dança.
+- **Bomba**: cai de inimigos esmagados ou está enterrada. Elimina tudo no tabuleiro (chefe perde 1 de vida), derruba as jacas que balançam e mata as flores.
+- **Túneis que desabam**: do nível 2 em diante, túneis cavados há mais de 18 s racham (cai poeira por 1,6 s) e fecham de novo, se ninguém estiver dentro. Os túneis de origem do nível não desabam.
+- **Picareta** (temporária, 16 s): o golpe de pá e a semente passam a matar tatus; tira 2 de vida do chefe.
+- **Setor alagado**: uma área azul do terreno. Dentro dela você anda devagar, a semente não funciona e o ar dura 8 s (barra azul sobre o chapéu). Vespas e vagalumes não entram na água.
+- **Donzela**: aparece pedindo socorro num túnel; tocar nela vale +1500 e +20 de Fúria. **Sereia-monstro**: vive no setor alagado e canta; a canção puxa o herói na direção dela (dá para resistir, mas não sempre). Tocar nela é morte. Só morre com o golpe de pá (+2000) ou com a bomba.
+- **Saco de dinheiro**: +2000 limpos. **Empréstimo**: +3000 na hora, depois juros de −600 a cada 8 s até o fim do nível (total −5400). Pense duas vezes.
+- **Inseticida** (3 cargas): o golpe de pá solta uma nuvem verde por até 4 casas à frente, matando vespas e vagalumes a distância e atordoando os outros.
+- **Flores carnívoras**: nascem na terra, acordadas por 3,5–5 s e dormindo por 4–6,5 s ("zzz"). Acordadas, devoram você e os inimigos. Dormindo, um golpe de pá as corta (+400).
+- **Segredos enterrados**: dois ou três fósseis em espiral marcam o lugar. Cave neles para achar a **Semeadora-metralhadora** (16 s de sementes em rajada, Espaço segurado dispara; atravessa blindagem), um saco de dinheiro ou uma bomba.
+
 - Letreiros em pincelada ("CAVAR!", "FÚRIA!", "VITÓRIA!"), respingos de tinta de café nos golpes e pétalas de flor de café caindo.
 - Vida extra aos 10.000 pontos e a cada 20.000 depois.
 
